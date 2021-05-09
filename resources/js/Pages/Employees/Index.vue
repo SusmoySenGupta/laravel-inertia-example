@@ -8,6 +8,14 @@
 
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                <!-- Flash message -->
+                <div v-if="this.$page.props.flash.message" class="px-3 py-3 mb-4 flex items-center bg-gradient-to-r from-blue-400 to-green-400 text-white rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1.5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="font-semibold leading-tight">{{ this.$page.props.flash.message }}</span> 
+                </div>
+
                 <div class="mb-4">
                     <inertia-link :href="route('employees.create')" class="px-3 py-2 bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold rounded hover:bg-gradient-to-l hover:from-blue-400 hover:to-green-500">
                         Add Employee 
@@ -68,6 +76,7 @@
                 </div>
             </div>
         </div>
+
     </breeze-authenticated-layout>
 </template>
 

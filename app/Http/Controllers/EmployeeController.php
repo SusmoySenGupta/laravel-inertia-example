@@ -29,7 +29,7 @@ class EmployeeController extends Controller
     {
         Employee::create($request->validated());
 
-        return redirect()->route('employees.index');
+        return redirect()->route('employees.index')->with('message', 'Employee is added!');
     }
 
     public function edit(Employee $employee)
@@ -43,13 +43,13 @@ class EmployeeController extends Controller
     {
         $employee->update($request->validated());
 
-        return redirect()->route('employees.index');
+        return redirect()->route('employees.index')->with('message', 'Edit Successful!');
     }
 
     public function destroy(Employee $employee)
     {
         $employee->delete();
 
-        return redirect()->route('employees.index');
+        return redirect()->route('employees.index')->with('message', $employee->name.' is deleted!');
     }
 }
