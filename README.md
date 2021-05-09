@@ -9,7 +9,7 @@
 It is an example app with CRUD functionality using Laravel, InertiaJs w/ VueJs.
 
 ### Website link
-`Link:` <a href="http://susmoycse.com/laravel/inertia-example/example" target="_blank">Laravel Inertia Example</a>  
+`Link:` <a href="http://susmoycse.com/laravel/inertia-example/employees" target="_blank">Laravel Inertia Example</a>  
 `Email: admin@admin.com`  
 `password: 0123456789`
 
