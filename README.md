@@ -17,13 +17,13 @@ It is an example app with CRUD functionality using Laravel, InertiaJs w/ VueJs.
 
 
 1. Employee Index page
-<p align="center"><img src="https://github.com/SusmoySenGupta/readme-contents/blob/main/laravel-inertial-example/index-example.PNG" width="900"></p>
+<p align="center"><img src="https://github.com/SusmoySenGupta/readme-contents/blob/main/laravel-inertia-images/index-example.PNG" width="900"></p>
 
 2. Employee create form
-<p align="center"><img src="https://github.com/SusmoySenGupta/readme-contents/blob/main/laravel-inertial-example/employee-create-example.PNG" width="900"></p>
+<p align="center"><img src="https://github.com/SusmoySenGupta/readme-contents/blob/main/laravel-inertia-images/employee-create-example.PNG" width="900"></p>
 
 3. Success message flash
-<p align="center"><img src="https://github.com/SusmoySenGupta/readme-contents/blob/main/laravel-inertial-example/success-message-example.PNG" width="900"></p>
+<p align="center"><img src="https://github.com/SusmoySenGupta/readme-contents/blob/main/laravel-inertia-images/success-message-example.PNG" width="900"></p>
 
 4. Login form
-<p align="center"><img src="https://github.com/SusmoySenGupta/readme-contents/blob/main/laravel-inertial-example/login-example.PNG" width="900"></p>
+<p align="center"><img src="https://github.com/SusmoySenGupta/readme-contents/blob/main/laravel-inertia-images/login-example.PNG" width="900"></p>
